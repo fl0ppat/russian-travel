@@ -17,11 +17,16 @@
 @import url('../blocks/lead/__caption/lead__caption.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 
-/* HEADER */
+/* INTRO */
 
-@import url('');
-@import url('');
-@import url('');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__number/intro__number.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__title/intro__title.css');
+
+/* INTRO */
+
 @import url('');
 @import url('');
 @import url('');

@@ -1,0 +1,7 @@
+.place__wrapper {
+    order: 4;
+    margin-left: 40px;
+    margin-top: 48px;
+    flex-basis: 1em;
+    flex-grow: 1;
+}

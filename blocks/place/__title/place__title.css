@@ -1,0 +1,9 @@
+.place__title {
+    order: 1;
+    color: white;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    width: 460px;
+    margin: 0;
+    font-weight: 900;
+}

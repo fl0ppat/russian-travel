@@ -1,0 +1,6 @@
+.place__website {
+    max-width: 456px;
+    order: 2;
+    margin-left: 40px;
+    align-self: flex-end;
+}

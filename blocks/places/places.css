@@ -1,0 +1,7 @@
+.places {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}

@@ -5,3 +5,19 @@
     flex-basis: 1em;
     flex-grow: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__wrapper {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__wrapper {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__wrapper {}
+}

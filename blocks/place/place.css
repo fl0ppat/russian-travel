@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 92px;
+    padding-top: 80px;
     position: relative;
+}
+
+.place:nth-child(1) {
+    padding-top: 92px;
 }

@@ -7,6 +7,18 @@
     margin-top: 33px;
     margin-bottom: 92px;
     font-size: 0.75rem;
-    line-height: 1.525em;
+    line-height: 1.540em;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        margin-bottom: 64px;
+    }
 }

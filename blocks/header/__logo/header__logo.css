@@ -2,6 +2,14 @@
     background-image: url('./logo.svg');
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: contain;
     min-width: 176px;
     min-height: 52px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        min-width: 142px;
+        min-height: 42px;
+    }
 }

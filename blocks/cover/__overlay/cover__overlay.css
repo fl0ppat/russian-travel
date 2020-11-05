@@ -31,16 +31,20 @@
     }
 }
 
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 768px) {
     .cover__overlay {
         max-width: 768px;
         max-height: 480px;
     }
 }
 
-@media screen and (max-width: 333px) {
+@media screen and (max-width: 320px) {
     .cover__overlay {
         max-width: 320px;
         max-height: 200px;
     }
+}
+
+.cover__overlay:hover::before {
+    opacity: .8;
 }

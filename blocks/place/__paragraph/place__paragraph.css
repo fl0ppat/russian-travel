@@ -3,9 +3,9 @@
     padding: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    margin: 0 0 26px;
+    margin-top: 26px;
     font-size: 1.125em;
-    line-height: 1.65em;
+    line-height: 1.62em;
     font-style: normal;
     font-weight: normal;
 }
@@ -19,4 +19,8 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph {}
+}
+
+.place__paragraph:nth-child(1) {
+    margin-top: 0;
 }

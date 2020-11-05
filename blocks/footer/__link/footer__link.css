@@ -4,6 +4,8 @@
     margin-right: 18px;
     text-decoration: none;
     font-size: 1rem;
+    cursor: pointer;
+    transition: opacity .3s;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
@@ -11,4 +13,8 @@
         margin-top: 32px;
         font-size: 1.5em;
     }
+}
+
+.footer__link:hover {
+    opacity: .8
 }

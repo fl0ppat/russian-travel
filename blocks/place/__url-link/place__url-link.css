@@ -3,4 +3,10 @@
     font-size: 1.125em;
     line-height: 1.375em;
     text-decoration-line: underline;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+.place__url-link:hover {
+    opacity: .8
 }

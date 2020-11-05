@@ -4,6 +4,8 @@
     line-height: 1.75rem;
     position: relative;
     padding-left: 18px;
+    transition: opacity .3s;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {
@@ -11,4 +13,8 @@
         font-size: 1.125em;
         line-height: 1.25rem;
     }
+}
+
+.header__lang-link:hover {
+    opacity: .8
 }

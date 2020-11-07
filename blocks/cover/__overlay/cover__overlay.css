@@ -1,7 +1,6 @@
 .cover__overlay {
     width: 100%;
     min-height: 740px;
-    margin-top: 92px;
     background-image: url('../__image/cover.png');
     background-position: center;
     background-size: cover;
